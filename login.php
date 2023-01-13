@@ -9,7 +9,7 @@ if (count($_POST)!=0) {
 
 // Redirect signed in users to membership page
 if (isset($_SESSIOn["member"])) {
-    header("Location: protect.php");
+    header("Location: content.php");
     exit();
 }
 ?>
